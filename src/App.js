@@ -14,6 +14,7 @@ function App() {
       try {
          let colors = new Values(color).all(10);
          setList(colors);
+         //  if error false the border color will not stay red
          setError(false);
          console.log(colors);
       } catch (error) {
